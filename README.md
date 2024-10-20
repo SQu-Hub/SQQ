@@ -1,4 +1,4 @@
-### SQQ - Superconducting Quantum Research Program – Chip Design Projects ###
+### SQC - Superconducting Quantum Research Program – Chip Design Projects ###
 
 **Use this Google Form to register your teams: [here](https://forms.gle/jFXSV5BjMvsC1Egp6)**
 
