@@ -15,7 +15,7 @@ See SQuADDS wish list for detailed ideas: https://github.com/LFL-Lab/SQuADDS/blo
 
 ---------------------------------------------------------------------------------------------------------
 
-__Project 2 - Arbitrary quantum operation construction__
+__Project 2 - Arbitrary Quantum Operation Construction__
 
 Universal gate sets can be used to achieve any desired unitary operator. More general quantum operations, however, can be non-unitary and involve behavior such as dissipation. By using measurements alongside universal gate sets, we should be able to construct arbitrary quantum operations. In this project, students will build a numerical optimizer that, when given a universal gate set and the ability to measure, is able to achieve any desired Kraus map specifying a quantum operation of interest [Reference](https://arxiv.org/pdf/1611.03463). This project will leverage bosonic and jaxquantum.  Later, students can extend the technique to run with closed-loop feedback from an experiment (e.g. with reinforcement learning) to implement desired quantum operations on hardware with high fidelity.
 
@@ -23,7 +23,7 @@ Some Reference: https://arxiv.org/pdf/1611.03463
 
 ---------------------------------------------------------------------------------------------------------
 
-__Project 3 - Autonomous stabilization of register-based error correcting codes__
+__Project 3 - Measurement-free Topological QEC__
 
 In bosonic QEC, we are able to use resets (instead of readout) to dump errors out of the system and stabilize our logical quantum information by cooling back into the logical codespace. Is it possible to do the same for something like a repetition code or surface code? This would allow us to use resets instead of relying on very high-fidelity readout, the latter of which is quite difficult to achieve. This project will use [jaxquantum](https://github.com/EQuS/jaxquantum/tree/main).  Initial explorations: [note](https://mit-equs.notion.site/Autonomous-Register-based-QEC-9d8babd390ea4fffa6b045b669bf783e) and [code](https://github.com/EQuS/jaxquantum/blob/main/tutorials/arbqec/1-rep.ipynb)
 
